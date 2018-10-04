@@ -1,0 +1,42 @@
+*{margin:0;padding:0;}
+*{box-sizing: border-box;}
+
+body{
+    background:#ccc;
+}
+.window{
+    width:300px;
+    height:200px;
+    margin:30px auto;
+    overflow: hidden;
+    position: relative;
+}
+.images{
+    display: flex;
+    transition: all 1s;
+  }
+.images > img{
+    width: 100%;
+}
+#buttonWrapper{
+    margin-top:10px;
+    position: absolute;
+    bottom:5px;
+    left:100px;
+}
+#buttonWrapper > input{
+    cursor: pointer;
+}
+svg{
+    background:#f4f4f4;
+    border-radius: 50%;
+}
+.icon:nth-child(1){
+    position: absolute;
+    top:86px;
+}
+.icon:nth-child(2){
+    position: absolute;
+    top:86px;
+    left:275px;
+}

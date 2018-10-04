@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<link rel="stylesheet" href="./css/style.css">
-	</head>
-	<body>
 
-		<script src="./js/main.js" charset="utf-8"></script>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://at.alicdn.com/t/font_707723_dwg1d8dvgsh.js"></script>
+	<style>
+        .icon {
+           width: 1.5em; height: 1.5em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+           cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+	<div class="window">
+		<div id="slides" class="images">
+			<img src="//i.loli.net/2018/10/04/5bb5fdcb80a5a.jpg" alt="图片" width="300" height="200">
+			<img src="//i.loli.net/2018/10/04/5bb5fdcb963be.jpg" alt="图片" width="300" height="200">
+			<img src="//i.loli.net/2018/10/04/5bb5fdcb9ff08.jpg" alt="图片" width="300" height="200">
+			<img src="//i.loli.net/2018/10/04/5bb5fdcba9529.jpg" alt="图片" width="300" height="200">
+	    </div>
+
+		<div id=buttonWrapper style="text-align:center;">
+			<input type="button" value="1">
+			<input type="button" value="2">
+			<input type="button" value="3">
+			<input type="button" value="4">
+        </div>
+
+		<div id="controls">
+			<svg id="previous" class="icon" aria-hidden="true">
+                <use xlink:href="#icon-previous"></use>
+        	</svg>
+			<svg  id="next" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-next"></use>
+        	</svg>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./js/main.js" charset="utf-8"></script>
+</body>
+
 </html>
